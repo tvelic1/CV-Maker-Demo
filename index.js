@@ -14,14 +14,14 @@ app.get("/", (req, res) => {
 const generatePDF = async () => {
   const browser = await puppeteer.launch({
     headless: true,
-    executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe", // Dodajte stvarnu putanju do Chrome izvršnog fajla
+    executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe", 
   });
   const page = await browser.newPage();
 
   const url = `http://localhost:${port}`;
 
   try {
-    await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 }); // Increased timeout to 60 seconds
+    await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 }); 
 
     const pdfPath = path.join(__dirname, "output1.pdf");
 
