@@ -3,113 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <title>CV - Tarik Velić</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <script>
+        function openPopup(link) {
+            const url = link;
+            const popupWindow = window.open(url, 'popup', 'width=600,height=400');
+            if (popupWindow) {
+                popupWindow.focus();
+            } else {
+                alert('Popup blocked. Please allow popups for this website.');
+            }
+        }
+    </script>
     <div class="container">
         <div class="sidebar">
             <img src="profile.jpg" alt="Profile Picture">
             <h2>Tarik Velić</h2>
-            <div class="personal-info">
-                <p><strong>Address:</strong> Gazi Mehmed-paše Fidahića 34, 71000 Sarajevo</p>
-                <p><strong>Phone number:</strong> 061258896</p>
-                <p><strong>Email:</strong> tarikvelic575@gmail.com</p>
-                <p><strong>Date of birth:</strong> 27-12-2001</p>
-                <p><strong>Gender:</strong> Male</p>
-                <p><strong>Driving license:</strong> B</p>
-                <p><strong>Website:</strong> <a style="color: aliceblue;" href="https://github.com/tvelic1" target="_blank" >Checkout my GitHub </a></p>
-                <p><strong>LinkedIn:</strong> <a style="color: aliceblue;" href="https://www.linkedin.com/in/tarik-veli%C4%87-99b743272/" target="_blank" >Tarik Velić</a></p>
-            </div>
+            
+<div class="personal-info">
+    <p class="icon-title"><strong><i class="fas fa-phone-alt"></i> Phone number:</strong> 061/528-896</p>
+    <p class="icon-title"><strong><i class="fas fa-envelope"></i> E-mail:</strong> <a  style="color: aliceblue;"  href="mailto:tarikvelic575@gmail.com">tarikvelic575@gmail.com</a></p>
+    <p class="icon-title"><strong><i class="fas fa-map-marker-alt"></i> Address:</strong> Gazi Mehmed-paše Fidahića 34, Sarajevo</p>
+    <p class="icon-title"><strong><i class="fas fa-birthday-cake"></i> Date of birth:</strong> 27.12.2001</p>
+    <p class="icon-title"><strong><i class="fas fa-mars"></i> Gender:</strong> Male</p>
+    <p class="icon-title"><strong><i class="fab fa-github"></i> GitHub:</strong> <a style="color: aliceblue;" href="https://github.com/tvelic1" target="_new" >Checkout my GitHub</a></p>
+    <p class="icon-title"><strong><i class="fab fa-linkedin"></i> LinkedIn:</strong> <a style="color: aliceblue;" href="https://www.linkedin.com/in/tarik-veli%C4%87-99b743272/" target="_new" >Tarik Velić</a></p>
+</div>
             <div class="interests">
                 <h3>INTERESTS</h3>
                 <ul>
-                    <li>Fitness</li>
-                    <li>Web application development</li>
-                    <li>Mobile application development</li>
-                    <li>Chess</li>
-                    <li>Mathematics</li>
+                    <li class="interests-icon-title"><i class="fas fa-dumbbell"></i> Fitness</li>
+                    <li class="interests-icon-title"><i class="fas fa-laptop-code"></i> Web application development</li>
+                    <li class="interests-icon-title"><i class="fas fa-mobile-alt"></i> Mobile application development</li>
+                    <li class="interests-icon-title"><i class="fas fa-chess"></i> Chess</li>
+                    <li class="interests-icon-title"><i class="fas fa-square-root-alt"></i> Mathematics</li>
                 </ul>
             </div>
         </div>
         <div class="main-content">
             <h1>Tarik Velić</h1>
-            <p>As a final year student I had an opportunity to build applications in numerous programming languages. Although I possess many skills which are necessary for various parts of software development, I can say that my greatest strength is frontend development, particularly ReactJS. Additionally, I have been tutoring elementary and high school students in mathematics for four years, and for the last two years, I have also been tutoring university students in Engineering Mathematics 1 and Engineering Mathematics 2. For sure, it was my love for mathematics that led me to programming. I am constantly motivated to learn new things about software engineering. Also, I enjoy participating in socially useful projects and solving challenging problems. Below are most of the projects I have worked on. The projects are also available on GitHub which you can access by clicking the link in the personal information paragraph.</p>
-            <h2>EDUCATION AND QUALIFICATIONS</h2>
+            <p style="text-align: justify;">As a final year student I had an opportunity to build applications in numerous programming languages. Although I possess many skills which are necessary for various parts of software development, I can say that my greatest strength is frontend development, particularly ReactJS. Additionally, I have been tutoring elementary and high school students in mathematics for four years, and for the last two years, I have also been tutoring university students in Engineering Mathematics 1 and Engineering Mathematics 2. For sure, it was my love for mathematics that led me to programming. I am constantly motivated to learn new things about software engineering. Also, I enjoy participating in socially useful projects and solving challenging problems. Below are most of the projects I have worked on. The projects are also available on GitHub which you can access by clicking the link in the personal information paragraph.</p>
+            <h2><i class="fas fa-graduation-cap"></i> EDUCATION AND QUALIFICATIONS</h2>
             <p>Final year student, Faculty of Electrical Engineering, Computing & Informatics, University of Sarajevo, Sarajevo<br>
-            GPA for Third (final) year: 9.4<br>
+            GPA for final year: 9.4<br>
             Total GPA: 8.4</p>
 
-            <h2>SKILLS</h2>
+            <h2><i class="fas fa-lightbulb"></i> SKILLS</h2>
             <div class="skills">
-                <div class="skill"><strong>ReactJS:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></span></div>
-                <div class="skill"><strong>JavaScript:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></span></div>
-                <div class="skill"><strong>TypeScript:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>Java:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>C, C++:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>React Native:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>Python:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>HTML, CSS:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></span></div>
-                <div class="skill"><strong>Node.js:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>C#:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>.NET:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>Testing (White Box + Black Box):</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>SQL:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>Blender:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>Unity:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>AutoCAD:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>Mathlab, Scilab:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>OOP:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
-                <div class="skill"><strong>Teamwork:</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>ReactJS</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>JavaScript</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>TypeScript</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>Java</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>C, C++</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>React Native</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>Python</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>HTML, CSS</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>Node.js</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>C#</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>.NET</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>Testing (White Box + Black Box)</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>SQL</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>Blender</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>Unity</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>AutoCAD - Lisp</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>Mathlab, Scilab</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>OOP</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span></span></div>
+                <div class="skill"><strong>Teamwork</strong> <span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></span></div>
             </div>
 
-            <h2>PROJECTS</h2>
+            <h2><i class="fas fa-tasks"></i> PROJECTS</h2>
             <div class="projects">
-                <div class="project">
+                <div class="project" onclick="openPopup('https://github.com/tvelic1/TravelAgency-React')">
                     <h3>Travel Agency</h3>
-                    <p>Web application made for users to be able to reserve their tickets for wanted destinations. For development of this project I was using <strong>ReactJS</strong> for frontend, <strong>Node.js</strong> for backend and <strong>MySQL</strong> database. Besides reserving tickets users have access to other functionalities which can be seen in source code on GitHub.</p>
+                    <p style="text-align: justify;">Web application made for users to be able to reserve their tickets for wanted destinations. For development of this project I was using <strong>ReactJS</strong> for frontend, <strong>Node.js</strong> for backend and <strong>MySQL</strong> database. Besides reserving tickets users have access to other functionalities which can be seen in source code on GitHub.</p>
                 </div>
-                <div class="project">
+                <div class="project" onclick="openPopup('https://github.com/tvelic1/RealEstateExplorer')">
                     <h3>Real Estate Explorer</h3>
-                    <p>Web application built in <strong>JavaScript</strong> and <strong>Node.js</strong>. Application was designed for exploring real estate, seeing their details and impressions of other users. Additionally, users can write their experiences and impressions linked to specific real estate. Those are only few functionalities that this application has.</p>
+                    <p style="text-align: justify;">Web application built in <strong>JavaScript</strong> and <strong>Node.js</strong>. Application was designed for exploring real estate, seeing their details and impressions of other users. Additionally, users can write their experiences and impressions linked to specific real estate. Those are only few functionalities that this application has.</p>
                 </div>
-                <div class="project">
+                <div class="project" onclick="openPopup('https://github.com/tvelic1/Cinema-C-.Net-MVC-project')">
                     <h3>C# .NET MVC Cinema Project</h3>
-                    <p>Web application designed as a part of group project at Faculty of Electrical Engineering Sarajevo. It offers most of functionalities that one cinema needs. It was built in <strong>C#</strong> and <strong>.NET</strong>, using <strong>MVC</strong> architecture.</p>
+                    <p style="text-align: justify;">Web application designed as a part of group project at Faculty of Electrical Engineering Sarajevo. It offers most of functionalities that one cinema needs. It was built in <strong>C#</strong> and <strong>.NET</strong>, using <strong>MVC</strong> architecture.</p>
                 </div>
-                <div class="project1">
+                <div class="project1" onclick="openPopup('https://drive.google.com/drive/u/0/folders/1AXrMS55EDE3ZxxQM5dgSaTSLWT7n1SmC')">
                     <h3>AR Mobile Application - Visualizing ramp in physics</h3>
-                    <p>This project was created as a part of group project for the subject of Electrical Engineering Sarajevo. It was built using <strong>Unity</strong>, <strong>Vuforia</strong> library and <strong>C#</strong>. It offers visualizations of physical problems for elementary and high school students. Shapes and models were created using <strong>Blender</strong></p>
+                    <p style="text-align: justify;">This project was created as a part of group project for the subject of Electrical Engineering Sarajevo. It was built using <strong>Unity</strong>, <strong>Vuforia</strong> library and <strong>C#</strong>. It offers visualizations of physical problems for elementary and high school students. Shapes and models were created using <strong>Blender</strong>.</p>
                 </div>
-                <div class="project">
+                <div class="project" onclick="openPopup('https://github.com/tvelic1/BlackBoxTesting')">
                     <h3>Black box Testing</h3>
-                    <p>Test automation using <strong>SeleniumIDE</strong>, <strong>NUnit Selenium</strong> automation framework, load and stress testing using <strong>Loadster</strong>, API testing using <strong>Postman</strong>. This was part of individual faculty project.</p>
+                    <p style="text-align: justify;">Test automation using <strong>SeleniumIDE</strong>, <strong>NUnit Selenium</strong> automation framework, load and stress testing using <strong>Loadster</strong>, API testing using <strong>Postman</strong>. This was part of individual faculty project.</p>
                 </div>
-                <div class="project">
+                <div class="project" onclick="openPopup('https://github.com/tvelic1/Unit-Testing')">
                     <h3>Unit Testing</h3>
-                    <p>I was testing units of application built by my colleagues, also as a part of individual faculty project. In general, unit testing is something that I always do, for all my projects, because I want to imporove my QA skills. <strong>Testing Library</strong> and <strong>Jest</strong> were used most of the time.</p>
+                    <p style="text-align: justify;">I was testing units of application built by my colleagues, also as a part of individual faculty project. In general, unit testing is something that I always do, for all my projects, because I want to imporove my QA skills. <strong>Testing Library</strong> and <strong>Jest</strong> were used most of the time.</p>
                 </div>
-                <div class="project">
+                <div class="project" onclick="openPopup('https://github.com/tvelic1/rpr_kino_projekat')">
                     <h3>Java - JavaFX Cinema Application</h3>
-                    <p>Cinema application built using <strong>Java</strong> and <strong>JavaFX</strong>. It is basic application for cinema which allows users to reserve their tickets, choose theirs seats and see list of all movies currently available. Application also offers other functionalities that cinemas need. For more details feel free to visit my GitHub.</p>
+                    <p style="text-align: justify;">Cinema application built using <strong>Java</strong> and <strong>JavaFX</strong>. It is basic application for cinema which allows users to reserve their tickets, choose theirs seats and see list of all movies currently available. Application also offers other functionalities that cinemas need. For more details feel free to visit my GitHub.</p>
                 </div>
-                <div class="project">
+                <div class="project" onclick="openPopup('https://github.com/tvelic1/SI-web-app')"> 
                     <h3>Field Logistic Control</h3>
-                    <p>Complex group project for managing records made by users of application. Projects is divided in to applications, mobile application for users which is built in <strong>React Native</strong> and web aplication for administrators and superadministrators which is built as a combination of <strong>ReactJS</strong> and <strong>.NET Web API</strong>. 
+                    <p style="text-align: justify;">Complex group project for managing records made by users of application. Projects is divided in to applications, mobile application for users which is built in <strong>React Native</strong> and web aplication for administrators and superadministrators which is built as a combination of <strong>ReactJS</strong> and <strong>.NET Web API</strong>. 
                         Basically, we have two roles on web application - superadmin and admin. Superadmins are responsible for creating companies and admins for companies, while on other hand admins are responsible for creating campaings for companies and locations for campaigns. Additionally, admins can create users and assign them to campaigns. User can accept that assignment and make record about his location. Location will be displayed on Maps via Google Maps API, also OCR is possibility for making records. More details are available on my GitHub.</p>
                 </div>
-                <div class="project">
+                <div class="project" onclick="openPopup('https://github.com/tvelic1/CV-Maker-Demo')">
                     <h3>CV Maker</h3>
-                    <p>Since it is hard to find very good CV maker which is free, I decided to make my own CV maker so I do not have to pay everytime for good quality CV. This CV is made using my own CV maker application. I used <strong>Node.js</strong> for backend and exporting data to PDF.</p>
+                    <p style="text-align: justify;">Since it is hard to find very good CV maker which is free, I decided to make my own CV maker so I do not have to pay everytime for good quality CV. This CV is made using my own CV maker application. I used <strong>Node.js</strong> for backend and exporting data to PDF.</p>
                 </div>
                 <div class="project">
                     <h3>Dijkstra algorithm experimental evaluation</h3>
-                    <p>For my final thesis at Faculty of Electrical Engineering Sarajevo, I had to research about various implementations of Dijsktra algorithm, because I wanted to compare performances of various ways of implementation. Through this project I got familiar with new data structures such as Fibonacci heaps and buckets and I implemented algorithm on two different ways in <strong>C++</strong> and compared results for my project.</p>
+                    <p style="text-align: justify;">For my final thesis at Faculty of Electrical Engineering Sarajevo, I had to research about various implementations of Dijsktra algorithm, because I wanted to compare performances of various ways of implementation. Through this project I got familiar with new data structures such as Fibonacci heaps and buckets and I implemented algorithm on two different ways in <strong>C++</strong> and compared results for my project.</p>
                 </div>
     
-                <div class="project">
+                <div class="project" onclick="openPopup('https://github.com/tvelic1/movies-tvshows')">
                     <h3>Movies and TV shows</h3>
-                    <p>Application built using <strong>TypeScript</strong> and <strong>ReactJS</strong> offers functionalities like soritng by many criteria, recommending, filtering, watching trailers, viewing overviews and comments from other users. It allows user to have insight in all necessary details from which user can decide is movie or TV show worth watching. Those details are: vote count, average grade and other real data. Those are only some of functionalities which application offers. It is deployed on <strong>Netlify</strong> so you can check it out - you can find link on my GitHub.</p>
+                    <p style="text-align: justify;">Application built using <strong>TypeScript</strong> and <strong>ReactJS</strong> offers functionalities like soritng by many criteria, recommending, filtering, watching trailers, viewing overviews and comments from other users. It allows user to have insight in all necessary details from which user can decide is movie or TV show worth watching. Those details are: vote count, average grade and other real data. Those are only some of functionalities which application offers. It is deployed on <strong>Netlify</strong> so you can check it out - you can find link on my GitHub.</p>
                 </div>
             </div>
         </div>

@@ -54,6 +54,13 @@ body {
     margin-bottom: 20px;
 }
 
+.sidebar .interests ul {
+    margin-left: -6px;
+}
+.sidebar .interests ul li {
+    margin-top: 15px;
+}
+
 .sidebar .personal-info p,
 .sidebar .interests p {
     margin-bottom: 10px;
@@ -72,7 +79,7 @@ body {
 }
 .sidebar .interests h3 {
     margin-bottom: 10px;
-    margin-top:10px;
+    margin-top:30px;
 }
 
 .main-content {
@@ -126,7 +133,7 @@ body {
 
 .star {
     font-size: 25px;
-    color: rgb(45, 11, 215);
+    color: #2c3e50;
 }
 
 .star.empty {
@@ -138,6 +145,7 @@ body {
     padding: 20px;
     background-color: #ecf0f1;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .projects .project h3 {
@@ -158,6 +166,7 @@ body {
     background-color: #ecf0f1;
     border-radius: 10px;
     page-break-before: always;
+    cursor: pointer;
 }
 
 .projects .project1 h3 {
@@ -170,4 +179,24 @@ body {
     font-size: 14px;
     line-height: 1.6;
     color: #101011;
+}
+.icon-title {
+    display: flex;
+    align-items: center;
+}
+.icon-title i {
+    width: 20px;
+    text-align: center;
+}
+.icon-title strong {
+    display: inline-block;
+    margin-right: 5px; /* Add space after the icon */
+}
+.interests-icon-title {
+    display: flex;
+    align-items: center;
+}
+.interests-icon-title i {
+    width: 30px;
+    text-align: center;
 }

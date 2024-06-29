@@ -43,10 +43,9 @@ const generatePDF = async () => {
 app.listen(port, async () => {
   console.log(`Server is running at http://localhost:${port}`);
   try {
-    await generatePDF();
+    //await generatePDF();
+    console.log("radi")
   } catch (error) {
     console.error("Error generating PDF:", error);
-  } finally {
-    process.exit();
   }
 });
