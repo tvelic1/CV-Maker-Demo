@@ -23,7 +23,7 @@ const generatePDF = async () => {
   try {
     await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 }); 
 
-    const pdfPath = path.join(__dirname, "output1.pdf");
+    const pdfPath = path.join(__dirname, "yourName.pdf");
 
     await page.pdf({
       path: pdfPath,
